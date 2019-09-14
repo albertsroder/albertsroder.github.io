@@ -48,3 +48,51 @@ function carusel() {
   slider[myIndex - 1].style.display = "block";
   setTimeout(carusel, 3000);
 }
+
+// CARUSEL
+
+var myIndex2 = 0;
+carusel2();
+
+function carusel2() {
+	var slider2 = document.getElementsByClassName("image-slider2");
+	for (var i = 0; i < slider2.length; i++) {
+		slider2[i].style.display = "none";
+	}
+	myIndex2++;
+	if (myIndex2 > slider2.length) myIndex2 = 1;
+	slider2[myIndex2-1].style.display = "block";
+	setTimeout(carusel2, 3000);
+}
+
+// CARUSEL
+
+var myIndex3 = 0;
+carusel3();
+
+function carusel3() {
+	var slider3 = document.getElementsByClassName("image-slider3");
+	for (var i = 0; i < slider3.length; i++) {
+		slider3[i].style.display = "none";
+	}
+	myIndex3++;
+	if (myIndex3 > slider3.length) myIndex3 = 1;
+	slider3[myIndex3-1].style.display = "block";
+	setTimeout(carusel3, 3000);
+}
+
+// CARUSEL
+
+var myIndex4 = 0;
+carusel4();
+
+function carusel4() {
+	var slider4 = document.getElementsByClassName("image-slider4");
+	for (var i = 0; i < slider4.length; i++) {
+		slider4[i].style.display = "none";
+	}
+	myIndex4++;
+	if (myIndex4 > slider4.length) myIndex4 = 1;
+	slider4[myIndex4-1].style.display = "block";
+	setTimeout(carusel4, 3000);
+}
