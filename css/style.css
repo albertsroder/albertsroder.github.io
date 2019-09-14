@@ -171,7 +171,8 @@ body {
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  max-width: 80%;
+  max-width: 1522px;
+  width: 100%;
   border-radius: 0px;
   margin: 20px auto;
   padding: 30px;
