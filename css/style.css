@@ -41,6 +41,7 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  padding: 0 15px;
 }
 
 .navbar-left a {
@@ -86,8 +87,7 @@ body {
 
 /* PORTFOLIO - TITLE */
 
-.ui-art h1,
-.projects-2d h1 {
+.page-main-title h1 {
   font-size: 57px;
   line-height: 67px;
   letter-spacing: 11.4px;
@@ -273,4 +273,66 @@ body {
   text-decoration: none;
   font-size: 22px;
   padding: 0 10px;
+}
+
+/* ABOUT ME PAGE */
+
+.about-content {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.about-title {
+  color: #848484;
+  font-size: 44px;
+  font-family: "Caviar Dreams", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  letter-spacing: 8.8px;
+  line-height: 51px;
+}
+
+.about-description {
+  margin-top: 80px;
+  font-size: 24px;
+  color: #848484;
+  line-height: 32px;
+  letter-spacing: 2.4px;
+  font-family: "Caviar Dreams", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+}
+
+.about-link {
+  position: absolute;
+  bottom: 0;
+}
+
+.about-link a {
+  font-family: "Caviar Dreams", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 3px;
+  color: #848484;
+  text-decoration: none;
+}
+
+.download-button {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.download-button a {
+  text-decoration: none;
+  font-size: 44px;
+  line-height: 56px;
+  letter-spacing: 2.2px;
+  font-family: "Caviar Dreams", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  color: #fff;
+  background: #848484;
+  padding: 8px 25px;
+  max-width: 200px;
+  width: 100%;
+  font-weight: bold;
 }
