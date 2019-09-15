@@ -127,6 +127,11 @@ body {
 .ui-link a {
   color: #848484;
   text-decoration: none;
+  transition: 0.3s ease-in;
+}
+
+.ui-link a:hover {
+  color: #1c768f;
 }
 
 .ui-flex {
@@ -323,6 +328,11 @@ body {
   letter-spacing: 3px;
   color: #848484;
   text-decoration: none;
+  transition: 0.3s ease-in;
+}
+
+.about-link a:hover {
+  color: #1c768f;
 }
 
 .download-button {
@@ -343,6 +353,11 @@ body {
   max-width: 200px;
   width: 100%;
   font-weight: bold;
+  transition: 0.3s ease-in;
+}
+
+.download-button a:hover {
+  background: #1c768f;
 }
 
 /* MOBILE MENU */
@@ -397,6 +412,11 @@ body {
   color: #848484;
   font-family: "Caviar Dreams", "Franklin Gothic Medium", "Arial Narrow", Arial,
     sans-serif;
+  transition: 0.3s ease-in;
+}
+
+.contact-txt a:hover {
+  color: #1c768f;
 }
 
 /* GO UP */
