@@ -370,6 +370,31 @@ body {
   padding: 10px 0;
 }
 
+/* CONTACT */
+
+.contact-row {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.contact-icon {
+  padding: 0 30px;
+  font-size: 60px;
+  color: #848484;
+}
+
+.contact-txt a {
+  text-decoration: none;
+  font-size: 45px;
+  color: #848484;
+  font-family: "Caviar Dreams", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+}
+
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 1440px) {
@@ -430,6 +455,15 @@ body {
 
   .navbar-left span {
     font-size: 10px;
+  }
+
+  .contact-icon {
+    font-size: 25px;
+    padding: 0 15px 0 0;
+  }
+
+  .contact-txt a {
+    font-size: 18px;
   }
 }
 
