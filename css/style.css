@@ -161,7 +161,28 @@ body {
   /* padding: 0 15px; */
 }
 
+.ui-placeholder {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Caviar Dreams";
+  color: #848484;
+  width: 100%;
+  background: #efefef;
+  padding: 265px 0;
+  margin: 20px 0px 0;
+}
+
 /*POPUPS*/
+
+.disclaimer {
+  display: block;
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: -30px;
+  font-size: 20px;
+  font-family: "Caviar Dreams";
+  color: #848484;
+}
 
 /* The Modal */
 .modal {
@@ -173,6 +194,7 @@ body {
   width: 100%;
   height: 100%;
   overflow: auto; /* Enable scroll if needed */
+  -webkit-overflow-scrolling: touch;
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
@@ -249,6 +271,31 @@ body {
 
 .popup-content div {
   text-align: center;
+}
+
+/* FUTURISTIC SPACESHIP */
+
+.futuristic-spaceship {
+  display: flex;
+}
+
+.futuristic-column:first-of-type {
+  width: 56.6%;
+}
+
+.futuristic-column {
+  width: 50%;
+}
+
+/* FUTURISTIC RETRO */
+
+.retro-row {
+  display: flex;
+}
+
+.retro-row img {
+  width: 50%;
+  height: 100%;
 }
 
 /* FOOTER */
@@ -507,9 +554,18 @@ body {
   .contact-txt a {
     font-size: 18px;
   }
+
+  .ui-placeholder {
+    padding: 110px 15px;
+    margin-top: 0;
+  }
 }
 
 @media only screen and (max-width: 575px) {
+  .flex-modal h2 {
+    line-height: 1.1;
+  }
+
   .designer-hide-mobile {
     display: none;
   }
@@ -575,5 +631,24 @@ body {
   .navbar-right .navbar-list {
     display: none;
     transition: 0.3s ease-in;
+  }
+
+  /* FUTURISTIC SPACESHIP */
+
+  .futuristic-spaceship {
+    display: block;
+  }
+
+  .futuristic-column:first-of-type,
+  .futuristic-column {
+    width: 100%;
+  }
+
+  .retro-row {
+    display: block;
+  }
+
+  .retro-row img {
+    width: 100%;
   }
 }
