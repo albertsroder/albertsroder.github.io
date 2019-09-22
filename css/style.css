@@ -298,6 +298,12 @@ body {
   height: 100%;
 }
 
+/* SOCIAL GAME */
+
+.social-game-img img {
+  padding: 5px 0;
+}
+
 /* FOOTER */
 
 .footer {
