@@ -56,7 +56,7 @@ function carusel() {
   myIndex++;
   if (myIndex > slider.length) myIndex = 1;
   slider[myIndex - 1].style.display = "block";
-  setTimeout(carusel, 3000);
+  setTimeout(carusel, 1500);
 }
 
 // CARUSEL
@@ -72,7 +72,7 @@ function carusel2() {
   myIndex2++;
   if (myIndex2 > slider2.length) myIndex2 = 1;
   slider2[myIndex2 - 1].style.display = "block";
-  setTimeout(carusel2, 3000);
+  setTimeout(carusel2, 1500);
 }
 
 // CARUSEL
@@ -88,7 +88,7 @@ function carusel3() {
   myIndex3++;
   if (myIndex3 > slider3.length) myIndex3 = 1;
   slider3[myIndex3 - 1].style.display = "block";
-  setTimeout(carusel3, 3000);
+  setTimeout(carusel3, 1500);
 }
 
 // CARUSEL
@@ -104,7 +104,7 @@ function carusel4() {
   myIndex4++;
   if (myIndex4 > slider4.length) myIndex4 = 1;
   slider4[myIndex4 - 1].style.display = "block";
-  setTimeout(carusel4, 3000);
+  setTimeout(carusel4, 1500);
 }
 
 // CARUSEL
@@ -120,7 +120,7 @@ function carusel5() {
   myIndex5++;
   if (myIndex5 > slider5.length) myIndex5 = 1;
   slider5[myIndex5 - 1].style.display = "block";
-  setTimeout(carusel5, 3000);
+  setTimeout(carusel5, 1500);
 }
 
 // CARUSEL
@@ -136,7 +136,7 @@ function carusel6() {
   myIndex6++;
   if (myIndex6 > slider6.length) myIndex6 = 1;
   slider6[myIndex6 - 1].style.display = "block";
-  setTimeout(carusel6, 3000);
+  setTimeout(carusel6, 1500);
 }
 
 // CARUSEL
@@ -152,7 +152,7 @@ function carusel7() {
   myIndex7++;
   if (myIndex7 > slider7.length) myIndex7 = 1;
   slider7[myIndex7 - 1].style.display = "block";
-  setTimeout(carusel7, 3000);
+  setTimeout(carusel7, 1500);
 }
 
 // CARUSEL
@@ -168,7 +168,7 @@ function carusel8() {
   myIndex8++;
   if (myIndex8 > slider8.length) myIndex8 = 1;
   slider8[myIndex8 - 1].style.display = "block";
-  setTimeout(carusel8, 3000);
+  setTimeout(carusel8, 1500);
 }
 
 // CARUSEL
@@ -184,7 +184,7 @@ function carusel9() {
   myIndex9++;
   if (myIndex9 > slider9.length) myIndex9 = 1;
   slider9[myIndex9 - 1].style.display = "block";
-  setTimeout(carusel9, 3000);
+  setTimeout(carusel9, 1500);
 }
 
 // CARUSEL
@@ -200,7 +200,7 @@ function carusel10() {
   myIndex10++;
   if (myIndex10 > slider10.length) myIndex10 = 1;
   slider10[myIndex10 - 1].style.display = "block";
-  setTimeout(carusel10, 3000);
+  setTimeout(carusel10, 1500);
 }
 
 // CARUSEL
@@ -216,7 +216,7 @@ function carusel11() {
   myIndex11++;
   if (myIndex11 > slider11.length) myIndex11 = 1;
   slider11[myIndex11 - 1].style.display = "block";
-  setTimeout(carusel11, 3000);
+  setTimeout(carusel11, 1500);
 }
 
 // CARUSEL
@@ -232,7 +232,7 @@ function carusel12() {
   myIndex12++;
   if (myIndex12 > slider12.length) myIndex12 = 1;
   slider12[myIndex12 - 1].style.display = "block";
-  setTimeout(carusel12, 3000);
+  setTimeout(carusel12, 1500);
 }
 
 // CARUSEL
@@ -248,7 +248,7 @@ function carusel13() {
   myIndex13++;
   if (myIndex13 > slider13.length) myIndex13 = 1;
   slider13[myIndex13 - 1].style.display = "block";
-  setTimeout(carusel13, 3000);
+  setTimeout(carusel13, 1500);
 }
 
 // CARUSEL
@@ -264,7 +264,7 @@ function carusel14() {
   myIndex14++;
   if (myIndex14 > slider14.length) myIndex14 = 1;
   slider14[myIndex14 - 1].style.display = "block";
-  setTimeout(carusel14, 3000);
+  setTimeout(carusel14, 1500);
 }
 
 // CARUSEL
@@ -280,5 +280,5 @@ function carusel15() {
   myIndex15++;
   if (myIndex15 > slider15.length) myIndex15 = 1;
   slider15[myIndex15 - 1].style.display = "block";
-  setTimeout(carusel15, 3000);
+  setTimeout(carusel15, 1500);
 }
