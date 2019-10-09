@@ -572,6 +572,10 @@ body {
 }
 
 @media only screen and (max-width: 575px) {
+  .modal iframe {
+    height: 300px;
+  }
+
   .flex-modal h2 {
     line-height: 1.1;
   }
